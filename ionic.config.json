@@ -1,0 +1,7 @@
+{
+  "name": "listDelete",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
