@@ -11,6 +11,11 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'siwper',
+    loadChildren: () => import('./siwper/siwper.module').then( m => m.SiwperPageModule)
+  },
+
 ];
 
 @NgModule({
